@@ -14,7 +14,7 @@ root.maxsize(500,500)
 welcome_lbl = Label(root, text = "Bienvenidos al taller de GIT", font = ("calibri","18"), fg = "#000b98", width= 28, height = 1)
 welcome_lbl.place(x = 20, y = 20)
 
-def fetchLicenseView():
+def fetchLicenceView():
     display_about_view()
 
 licence_btn = Button(root, text="Licencia", command=fetchLicenceView, bg = "#000000", fg = "#ffffff", width = 50, height = 5)
