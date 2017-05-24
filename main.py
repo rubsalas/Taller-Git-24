@@ -22,4 +22,11 @@ licence_btn = Button(root, text="Licencia", command=fetchLicenceView, bg = "#000
 licence_btn.place(x=35,y=180)
 
 
+def fetchAboutView():
+    display_about_view()
+
+about_btn = Button(root, text="Sobre este proyecto", command=fetchAboutView, bg = "#000000", fg = "#ffffff", width = 50, height = 5)
+about_btn.place(x=35,y=180)
+
+
 root.mainloop()
